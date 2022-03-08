@@ -2,6 +2,7 @@
     <div>
         <div class="m-6">Home Page</div>
         <div class="m-6" v-if="user">Hello {{user.displayName}}</div>
+        <div class="m-6 text-red-500" v-else>Các con vợ Thụy Xuân đăng kí rồi hay vào sử dụng</div>
     </div>
 </template>
 <script>
